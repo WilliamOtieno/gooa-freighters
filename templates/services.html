@@ -7,9 +7,9 @@
   <meta name="author" content="">
 
   <title>GOOA Company Limited</title>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href={{ url_for('static', filename="vendor/bootstrap/css/bootstrap.min.css") }} rel="stylesheet">
 
-  <link href="css/styles.css" rel="stylesheet">
+  <link href={{ url_for('static', filename="css/styles.css") }} rel="stylesheet">
 
 </head>
 
@@ -18,7 +18,7 @@
   <section id="header">
     <div class="menu-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="images/shipping.png" class="img-responsive" alt=""></a>
+            <a class="navbar-brand" href="#"><img src={{ url_for('static', filename="images/shipping.png") }} class="img-responsive" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,21 +47,21 @@
     <!-- Header -->
   <div class="slideshow">
       <div class="slideshow-item">
-          <img src="images/gooaprof.jpeg" alt="">
+          <img src={{ url_for('static', filename="images/gooaprof.jpeg") }} alt="">
           <div class="slideshow-item-text">
               <h5>GOOA World Freighters</h5>
               <p>About us, GOOA  WORLD  FREIGHTERS  LIMITED  is  a  private  limited  company  registered  in Kenya  Under  the  Kenya  Company  Registration  Act.  Rooted  in  the  <b>Logistics  general supplies  industry,</b>  As  one  of  the  logistics  company  in  the  region.</p>
           </div>
       </div>
       <div class="slideshow-item">
-          <img src="images/vision.jpg" alt="">
+          <img src={{ url_for('static', filename="images/vision.jpg") }} alt="">
           <div class="slideshow-item-text">
               <h5>Our Vision </h5>
               <p>To provide excellent and quality services to the full satisfaction of our client by offer-ing best professional engineering practice and sustainable solutions.</p>
           </div>
       </div>
       <div class="slideshow-item">
-          <img src="images/mission.jpg" alt="">
+          <img src={{ url_for('static', filename="images/mission.jpg") }} alt="">
           <div class="slideshow-item-text">
               <h5>Our Mission</h5>
               <p>To  provide  the  highest  quality  of  service  to  our  clients,  ensure  long-term  profitability, increase shareholder value, provide career opportunities, and continuously support the betterment of the community.</p>
@@ -75,7 +75,7 @@
 <!--          </div>-->
       </div>
             <div class="slideshow-item">
-          <img src="images/strategy.jpg" alt="">
+          <img src={{ url_for('static', filename="images/strategy.jpg") }} alt="">
           <div class="slideshow-item-text">
               <h5>Our Strategy</h5>
               <p>We  place  the  highest  value  on   teamwork  and  mutual   respect  among  our employees  and  our  clients.  Our  success  is  the  result  of  working  diligently  as  a team  to  do  each  job  right  as  well  as  maintaining  a  long-term  perspective  and integrity in the face of daily pressures while ensuring excellence and satisfaction in our product and service.</p>
@@ -115,7 +115,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/overseas.jpg">
+                  <img src={{ url_for('static', filename="images/overseas.jpg") }}>
 
               </div>
           </div>
@@ -142,7 +142,7 @@
               <a href="" class="btn">Explore<span>&#10155;</span></a>
           </div>
           <div class="col-2">
-              <img src="images/services.jpg">
+              <img src={{ url_for('static', filename="images/services.jpg") }}>
 
           </div>
       </div>
@@ -169,7 +169,7 @@
               <a href="" class="btn">Explore<span>&#10155;</span></a>
           </div>
           <div class="col-2">
-              <img src="images/road.jpg" style="height: available" width="1920">
+              <img src={{ url_for('static', filename="images/road.jpg") }} style="height: available" width="1920">
 
           </div>
           <br>
@@ -204,7 +204,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/customsbrokerage.jpg" style="height: available" width="1920">
+                  <img src={{ url_for('static', filename="images/customsbrokerage.jpg") }} style="height: available" width="1920">
 
               </div>
           </div>
@@ -231,7 +231,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/construction.jpg" style="height: available" width="1920">
+                  <img src={{ url_for('static', filename="images/construction.jpg") }} style="height: available" width="1920">
 
               </div>
           </div>
@@ -262,7 +262,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/office.jpg" style="height: available" width="1920">
+                  <img src={{ url_for('static', filename="images/office.jpg") }} style="height: available" width="1920">
 
               </div>
           </div>
@@ -291,7 +291,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/printing.jpg" style="height: available" width="1920">
+                  <img src={{ url_for('static', filename="images/printing.jpg") }} style="height: available" width="1920">
 
               </div>
           </div>
@@ -310,7 +310,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/advertising.jpg" style="height: available" width="1920">
+                  <img src={{ url_for('static', filename="images/advertising.jpg") }} style="height: available" width="1920">
 
               </div>
           </div>
@@ -335,7 +335,7 @@
                   <a href="" class="btn">Explore<span>&#10155;</span></a>
               </div>
               <div class="col-2">
-                  <img src="images/agriculture.jpg" style="height: available" width="1920">
+                  <img src={{ url_for('static', filename="images/agriculture.jpg") }} style="height: available" width="1920">
 
               </div>
           </div>
