@@ -85,21 +85,21 @@
 
   <div class="slideshow">
       <div class="slideshow-item">
-          <img src="images/gooaprof.jpeg" alt="">
+          <img src={{ url_for('static', "images/gooaprof.jpeg") }} alt="">
           <div class="slideshow-item-text">
               <h5>GOOA World Freighters</h5>
               <p>About us, GOOA  WORLD  FREIGHTERS  LIMITED  is  a  private  limited  company  registered  in Kenya  Under  the  Kenya  Company  Registration  Act.  Rooted  in  the  <b>Logistics  general supplies  industry,</b>  As  one  of  the  logistics  company  in  the  region.</p>
           </div>
       </div>
       <div class="slideshow-item">
-          <img src="images/vision.jpg" alt="">
+          <img src={{ url_for('static', filename="images/vision.jpg") }} alt="">
           <div class="slideshow-item-text">
               <h5>Our Vision </h5>
               <p>To provide excellent and quality services to the full satisfaction of our client by offer-ing best professional engineering practice and sustainable solutions.</p>
           </div>
       </div>
       <div class="slideshow-item">
-          <img src="images/mission.jpg" alt="">
+          <img src={{ url_for('static', filename="images/mission.jpg") }} alt="">
           <div class="slideshow-item-text">
               <h5>Our Mission</h5>
               <p>To  provide  the  highest  quality  of  service  to  our  clients,  ensure  long-term  profitability, increase shareholder value, provide career opportunities, and continuously support the betterment of the community.</p>
@@ -113,7 +113,7 @@
 <!--          </div>-->
 <!--      </div>-->
             <div class="slideshow-item">
-          <img src="images/strategy.jpg" alt="">
+          <img src={{ url_for('static', filename="images/strategy.jpg") }} alt="">
           <div class="slideshow-item-text">
               <h5>Our Strategy</h5>
               <p>We  place  the  highest  value  on   teamwork  and  mutual   respect  among  our employees  and  our  clients.  Our  success  is  the  result  of  working  diligently  as  a team  to  do  each  job  right  as  well  as  maintaining  a  long-term  perspective  and integrity in the face of daily pressures while ensuring excellence and satisfaction in our product and service.</p>
@@ -150,7 +150,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Transport & Logistics</h5><br>
-                    <img src="images/overseas.jpg" alt="" >
+                    <img src={{ url_for('static', filename="images/overseas.jpg") }} alt="" >
                 </div>
                 <div class="details">
                     <div class="content">
@@ -162,7 +162,7 @@
             <div class="col-3">
                 <div class="cat">
                 <h5>Our Services</h5><br>
-                    <img src="images/services.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/services.jpg") }} alt="">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -174,7 +174,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Road, ship & air Freight</h5><br>
-                    <img src="images/road.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/road.jpg") }} alt="">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -186,7 +186,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Customs Clearance </h5><br>
-                    <img src="images/logistics.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/logistics.jpg") }} alt="">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -198,7 +198,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>General Supplies</h5><br>
-                    <img src="images/warehousing.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/warehousing.jpg") }} alt="">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -210,7 +210,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>General Office Suppliers</h5><br>
-                    <img src="images/office.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/office.jpg") }} alt="">
                 </div>
                 <div class="details">
                   <p style="color: white">We offer a wide range of Office systems and chairs that are flexible, dynamic and ergonomic. <br>Stationery Sell and Supply</p>
@@ -222,7 +222,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Printing Services</h5><br>
-                    <img src="images/printing.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/printing.jpg") }} alt="">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -234,7 +234,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Advertising and Branding</h5><br>
-                    <img src="images/advertising.jpg" alt="Air Freight" style="width: auto" height="40px">
+                    <img src={{ url_for('static', filename="images/advertising.jpg") }} alt="Air Freight" style="width: auto" height="40px">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -246,7 +246,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Corporate Advertising and Branding</h5><br>
-                    <img src="images/customsbrokerage.jpg" alt="">
+                    <img src={{ url_for('static', filename="images/customsbrokerage.jpg") }} alt="">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -258,7 +258,7 @@
             <div class="col-3">
                 <div class="cat">
                   <h5>Supply of Agricultural Products</h5><br>
-                    <img src="images/agriculture.jpg" alt="Air Freight">
+                    <img src={{ url_for('static', filename="images/agriculture.jpg") }} alt="Air Freight">
                 </div>
                 <div class="details">
                     <div class="content">
@@ -307,15 +307,15 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark" style="height: 5px">
 <!--      <div class="container-footer" style="height: 5px" style="width: auto">-->
-<!--          <img src="images/shipping.png" class="img-responsive" alt="COmpany Logo" style="alignment: center">-->
+<!--          <img src="images/shipping.png" class="img-responsive" alt="Company Logo" style="alignment: center">-->
           <p class="m-0 text-center text-white">Copyright &copy; GOOA 2020. All Rights Reserved</p>
 <!--      </div>-->
       <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src={{ url_for('static', filename="vendor/jquery/jquery.min.js") }}></script>
+  <script src={{ url_for('static', filename="vendor/bootstrap/js/bootstrap.bundle.min.js") }}></script>
 
 </body>
 </html>
