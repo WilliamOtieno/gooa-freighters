@@ -64,7 +64,7 @@ html {
     width: auto;
     height: auto;
   /*background-size: cover;*/
-  background: url(images/gooaprof.jpeg) center;
+  /*background: url(images/gooaprof.jpeg) center;*/
   /*color: white;*/
     opacity: 1;
 }
@@ -346,6 +346,48 @@ hr {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+/*media query for services section*/
+
+@media screen and (max-width: 1000px) {
+    .categories{
+        max-width: 70%;
+    }
+    .categories .col-3{
+        display: block;
+    }
+    .small-container{
+        max-width: 70%;
+        padding: 5rem 1rem;
+    }
+
+    .small-container .row .col-3 .cat h5 .details .content p a {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .categories{
+        max-width: 100%;
+        padding: 2rem;
+    }
+    .categories .col-3{
+        display: block;
+    }
+    .small-container{
+        max-width: 100%;
+        padding: 5rem 1rem;
+    }
+
+    .small-container .row .col-3 .cat h5 .details .content{
+        font-size: 3rem;
+    }
+    .small-container .row .col-3 .cat .details .content p a{
+        font-size: 1.4rem;
+    }
+}
+
+
 .cat:hover{
   display: block !important;
 }
